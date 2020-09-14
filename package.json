@@ -1,0 +1,28 @@
+{
+  "name": "e2etest",
+  "version": "0.0.1",
+  "description": "Application for Testing Epic Games functionality",
+  "main": "conf.js",
+  "author": {
+    "name": "Alina Tabachnikas",
+    "email": "tusia95@mail.ru"
+  },
+  "scripts": {
+    "compile": "npx tsc.cmd",
+    "test": "npx protractor.cmd config.js",
+    "webdriver-update": "npx webdriver-manager update"
+  },
+  "dependencies": {
+    "jasmine": "^3.4.0",
+    "protractor": "^5.4.2",
+    "protractor-beautiful-reporter": "^1.2.8",
+    "request": "^2.88.2",
+    "typescript": "^3.5.3",
+    "webdriver-manager": "^12.1.5"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.3.16",
+    "@types/jasminewd2": "^2.0.6",
+    "@types/node": "^7.10.6"
+  }
+}

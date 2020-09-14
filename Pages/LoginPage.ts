@@ -10,6 +10,7 @@ export class LoginPage {
     }
 
     public CheckLoginAppleBlockIsDisplayed(loginText: string) {
+        console.log(`Check apple id login block is dipalyed`);
         Page.Wait.ElementDisplayed(this.appleLoginBlock, `apple login element`);
         expect(<any>this.appleLoginBlock.getText()).toEqual(loginText);
 

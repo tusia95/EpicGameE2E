@@ -1,7 +1,6 @@
 import { Page } from "../Pages/Page";
 import { StorePage } from "../Pages/StorePage";
 import { WarningPage } from "../Pages/WarningPage";
-import { browser } from "protractor";
 import { ProductPage } from "../Pages/ProductPage";
 import { LoginPage } from "../Pages/LoginPage";
 
@@ -44,10 +43,5 @@ describe("Epic games store, first test", function () {
 
         let loginPage = new LoginPage();
         loginPage.CheckLoginAppleBlockIsDisplayed(`ВОЙТИ С ПОМОЩЬЮ APPLE`);
-        
-
-       
-        
-        
     });
 });
